@@ -41,4 +41,4 @@ the height of the tree at the end of the 2nd cycle = 3
 the height of the tree at the end of the 3rd cycle = 6
 
 N = 4: 
-the height of the tree at the end of the 4th cycle = 7
+the height of the tree at the end of the 4th cycle = 7 
