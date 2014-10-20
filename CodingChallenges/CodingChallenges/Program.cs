@@ -10,7 +10,29 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-           var results =  new HackerRank.UtopianTree.Solution().GetOutputs(new[] {3, 4 });
+            TestServiceLane();
+            TestUtopianTree();
+        }
+
+        private static void TestServiceLane()
+        {
+            var sl = new HackerRank.ServiceLane.Solution()
+            {
+                LaneActions = new int[,] {
+                    { 2, 3 },
+                    { 1, 4 },
+                    { 2, 4 },
+                    { 2, 4 },
+                    { 2, 3 }
+                },
+                LaneRestrictions = new[] { 1, 2, 2, 2, 1 }
+            };
+            sl.PrintOutput();
+        }
+
+        private static void TestUtopianTree()
+        {
+            var results = new HackerRank.UtopianTree.Solution().GetOutputs(new[] { 3, 4 });
         }
     }
 }
