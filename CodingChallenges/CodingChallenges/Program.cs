@@ -10,8 +10,15 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            TestServiceLane();
-            TestUtopianTree();
+            //TestLoveLetterMystery();
+            //TestServiceLane();
+            //TestUtopianTree();
+        }
+
+        private static void TestLoveLetterMystery()
+        {
+            var llm = new HackerRank.TheLoveLetterMystery.Solution();
+            llm.CalculateLetterChanges("nabm");
         }
 
         private static void TestServiceLane()

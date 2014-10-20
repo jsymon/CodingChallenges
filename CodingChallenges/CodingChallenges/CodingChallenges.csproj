@@ -54,6 +54,7 @@
     <Compile Include="Exercism.io\Leap\Year.cs" />
     <Compile Include="HackerRank\Functions.cs" />
     <Compile Include="HackerRank\ServiceLane\Solution.cs" />
+    <Compile Include="HackerRank\TheLoveLetterMystery\Solution.cs" />
     <Compile Include="HackerRank\UtopianTree\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HackerRank\ServiceLane\README.txt" />
+    <Content Include="HackerRank\TheLoveLetterMystery\README.txt" />
     <Content Include="HackerRank\UtopianTree\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
