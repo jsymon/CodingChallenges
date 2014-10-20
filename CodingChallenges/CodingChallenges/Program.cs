@@ -10,6 +10,7 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
+           var results =  new HackerRank.UtopianTree.Solution().GetOutputs(new[] {3, 4 });
         }
     }
 }

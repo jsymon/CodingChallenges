@@ -52,6 +52,8 @@
     <Compile Include="Exercism.io\Etl\_debug.cs" />
     <Compile Include="Exercism.io\Leap\LeapTest.cs" />
     <Compile Include="Exercism.io\Leap\Year.cs" />
+    <Compile Include="HackerRank\Functions.cs" />
+    <Compile Include="HackerRank\UtopianTree\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,7 +64,9 @@
     <None Include="Exercism.io\Leap\README.md" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="HackerRank\UtopianTree\README.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
