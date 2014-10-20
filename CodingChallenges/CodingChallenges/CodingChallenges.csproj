@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,12 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercism.io\Bob\Bob.cs" />
+    <Compile Include="Exercism.io\Bob\BobTest.cs" />
+    <Compile Include="Exercism.io\Bob\_debug.cs" />
+    <Compile Include="Exercism.io\Etl\ETL.cs" />
+    <Compile Include="Exercism.io\Etl\ETLTest.cs" />
+    <Compile Include="Exercism.io\Etl\_debug.cs" />
+    <Compile Include="Exercism.io\Leap\LeapTest.cs" />
+    <Compile Include="Exercism.io\Leap\Year.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Exercism.io\Bob\README.md" />
+    <None Include="Exercism.io\Etl\README.md" />
+    <None Include="Exercism.io\Leap\README.md" />
+    <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
