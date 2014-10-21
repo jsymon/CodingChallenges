@@ -10,9 +10,16 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
+            TestMaximizingXOR();
             //TestLoveLetterMystery();
             //TestServiceLane();
             //TestUtopianTree();
+            Console.Read();
+        }
+
+        private static void TestMaximizingXOR()
+        {
+            new HackerRank.MaximizingXOR.Solution().PrintOutput(10, 15);
         }
 
         private static void TestLoveLetterMystery()

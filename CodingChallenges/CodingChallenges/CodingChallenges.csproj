@@ -53,6 +53,7 @@
     <Compile Include="Exercism.io\Leap\LeapTest.cs" />
     <Compile Include="Exercism.io\Leap\Year.cs" />
     <Compile Include="HackerRank\Functions.cs" />
+    <Compile Include="HackerRank\MaximizingXOR\Solution.cs" />
     <Compile Include="HackerRank\ServiceLane\Solution.cs" />
     <Compile Include="HackerRank\TheLoveLetterMystery\Solution.cs" />
     <Compile Include="HackerRank\UtopianTree\Solution.cs" />
@@ -67,10 +68,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HackerRank\MaximizingXOR\README.txt" />
     <Content Include="HackerRank\ServiceLane\README.txt" />
     <Content Include="HackerRank\TheLoveLetterMystery\README.txt" />
     <Content Include="HackerRank\UtopianTree\README.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
