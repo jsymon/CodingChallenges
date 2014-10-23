@@ -52,13 +52,28 @@
     <Compile Include="Exercism.io\Etl\_debug.cs" />
     <Compile Include="Exercism.io\Leap\LeapTest.cs" />
     <Compile Include="Exercism.io\Leap\Year.cs" />
+    <Compile Include="HackerRank\CutTheSticks\Solution.cs" />
     <Compile Include="HackerRank\Functions.cs" />
+    <Compile Include="HackerRank\GemStones\Solution.cs" />
+    <Compile Include="HackerRank\HalloweenParty\Solution.cs" />
     <Compile Include="HackerRank\MaximizingXOR\Solution.cs" />
     <Compile Include="HackerRank\ServiceLane\Solution.cs" />
     <Compile Include="HackerRank\TheLoveLetterMystery\Solution.cs" />
     <Compile Include="HackerRank\UtopianTree\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TalentBuddy\AverageGrade\Solution.cs" />
+    <Compile Include="TalentBuddy\BounceRate\Solution.cs" />
+    <Compile Include="TalentBuddy\CommonCourses\Solution.cs" />
+    <Compile Include="TalentBuddy\HighestGrade\Solution.cs" />
+    <Compile Include="TalentBuddy\Prediction\Solution.cs" />
+    <Compile Include="TalentBuddy\Priority\Solution.cs" />
+    <Compile Include="TalentBuddy\LongestImprovement\Solution.cs" />
+    <Compile Include="TalentBuddy\SelectSubstring\Solution.cs" />
+    <Compile Include="TalentBuddy\SortingStudents\Solution.cs" />
+    <Compile Include="TalentBuddy\StudentProgress\Solution.cs" />
+    <Compile Include="TalentBuddy\SuccessfulStudents\Solution.cs" />
+    <Compile Include="TalentBuddy\TopLocations\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -68,10 +83,25 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HackerRank\CutTheSticks\README.txt" />
+    <Content Include="HackerRank\GemStones\README.txt" />
+    <Content Include="HackerRank\HalloweenParty\README.txt" />
     <Content Include="HackerRank\MaximizingXOR\README.txt" />
     <Content Include="HackerRank\ServiceLane\README.txt" />
     <Content Include="HackerRank\TheLoveLetterMystery\README.txt" />
     <Content Include="HackerRank\UtopianTree\README.txt" />
+    <Content Include="TalentBuddy\AverageGrade\README.txt" />
+    <Content Include="TalentBuddy\BounceRate\README.txt" />
+    <Content Include="TalentBuddy\CommonCourses\README.txt" />
+    <Content Include="TalentBuddy\HighestGrade\README.txt" />
+    <Content Include="TalentBuddy\Prediction\README.txt" />
+    <Content Include="TalentBuddy\Priority\README.txt" />
+    <Content Include="TalentBuddy\LongestImprovement\README.txt" />
+    <Content Include="TalentBuddy\SelectSubstring\README.txt" />
+    <Content Include="TalentBuddy\SortingStudents\README.txt" />
+    <Content Include="TalentBuddy\StudentProgress\README.txt" />
+    <Content Include="TalentBuddy\SuccessfulStudents\README.txt" />
+    <Content Include="TalentBuddy\TopLocations\README.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

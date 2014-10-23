@@ -1,4 +1,6 @@
-﻿Given two integers: L and R,
+﻿https://www.hackerrank.com/challenges/maximizing-xor
+
+Given two integers: L and R,
 
 find the maximal values of A xor B given, L ≤ A ≤ B ≤ R
 
