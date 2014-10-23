@@ -11,7 +11,6 @@ namespace CodingChallenges.HackerRank
     /// </summary>
     public class Functions
     {
-
         public void GetInputPerRow()
         {
             //line 1 always contains the number of records
@@ -22,7 +21,5 @@ namespace CodingChallenges.HackerRank
                 items[i] = Int32.Parse(Console.ReadLine());
             }
         }
-
-
     }
 }
