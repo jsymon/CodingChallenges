@@ -10,8 +10,8 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-
-            new HackerRank.HalloweenParty.Solution();
+            TestChocolateFeast();
+            //TestHalloweenParty();
             //TestCommonCourses();
             //TestSortingStudents();
             //TestPriority();
@@ -20,6 +20,17 @@ namespace CodingChallenges
             //TestServiceLane();
             //TestUtopianTree();
             Console.Read();
+        }
+
+        private static void TestChocolateFeast()
+        {
+            var chocolateTransaction = new CodingChallenges.HackerRank.ChocolateFeast.ChocolateTransaction() { MoneyInPocket = 6, ChocolatePrice = 2, WrapperToFreeChocolateRatio = 2 };
+            new CodingChallenges.HackerRank.ChocolateFeast.Solution().PrintOutput(chocolateTransaction);
+        }
+
+        private static void TestHalloweenParty()
+        {
+            new HackerRank.HalloweenParty.Solution();
         }
 
         private static void TestCommonCourses()

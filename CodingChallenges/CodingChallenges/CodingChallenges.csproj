@@ -52,8 +52,10 @@
     <Compile Include="Exercism.io\Etl\_debug.cs" />
     <Compile Include="Exercism.io\Leap\LeapTest.cs" />
     <Compile Include="Exercism.io\Leap\Year.cs" />
+    <Compile Include="HackerRank\ChocolateFeast\Solution.cs" />
     <Compile Include="HackerRank\CutTheSticks\Solution.cs" />
     <Compile Include="HackerRank\Functions.cs" />
+    <Compile Include="HackerRank\GameOfThrones\Solution.cs" />
     <Compile Include="HackerRank\GemStones\Solution.cs" />
     <Compile Include="HackerRank\HalloweenParty\Solution.cs" />
     <Compile Include="HackerRank\MaximizingXOR\Solution.cs" />
@@ -83,7 +85,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HackerRank\ChocolateFeast\README.txt" />
     <Content Include="HackerRank\CutTheSticks\README.txt" />
+    <Content Include="HackerRank\GameOfThrones\README.txt" />
     <Content Include="HackerRank\GemStones\README.txt" />
     <Content Include="HackerRank\HalloweenParty\README.txt" />
     <Content Include="HackerRank\MaximizingXOR\README.txt" />
