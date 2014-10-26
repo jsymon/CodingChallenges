@@ -4,7 +4,7 @@ Manasa is out on a hike with friends. She finds a trail of stones with numbers o
 
 Note : The numbers on the stones are in increasing order
 
-Input Format 
+Input Format
 The first line contains an integer T i.e. the number of Test cases. T testcases follow. 
 Each testcase has 3 lines. The first line contains n ( the number of stones ) The second line contains a. The third line contains b.
 

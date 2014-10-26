@@ -13,14 +13,14 @@ namespace CodingChallenges.HackerRank.ManasaAndStones
             var configs = ParseInputs();
             foreach (var config in configs)
             {
+                int stoneA = config.StoneIncrements[0];
+                int stoneB = config.StoneIncrements[1];
                 var totals = new List<int>();
-                int a = config.StoneIncrements[0];
-                int b = config.StoneIncrements[1];
 
                 for (int i = 0; i <= config.NumberOfStones - 1; i++)//i is total quantity of 'a' to take
                 {
-                    var aMax = ((config.NumberOfStones - 1) - i) * a;
-                    var bMax = i * b;
+                    var aMax = ((config.NumberOfStones - 1) - i) * stoneA;
+                    var bMax = i * stoneB;
                     totals.Add(aMax + bMax);
                 }
                 Console.WriteLine(string.Join(" ", totals.Distinct().OrderBy(x => x).ToList()));
