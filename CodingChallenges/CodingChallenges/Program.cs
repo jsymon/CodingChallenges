@@ -10,7 +10,35 @@ namespace CodingChallenges
     {
         static void Main(string[] args)
         {
-            TestChocolateFeast();
+
+
+
+
+            int loops = 3;
+            int a = 10;
+            int b = 100;
+
+            for (int i = 0; i <= loops; i++)//i us total quantity of 'a' to take
+            {
+                var aMax = (loops - i) * a;
+                var bMax = i * b;
+
+                Console.WriteLine(aMax + bMax);
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            //TestChocolateFeast();
             //TestHalloweenParty();
             //TestCommonCourses();
             //TestSortingStudents();

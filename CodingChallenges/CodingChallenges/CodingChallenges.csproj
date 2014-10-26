@@ -58,6 +58,7 @@
     <Compile Include="HackerRank\GameOfThrones\Solution.cs" />
     <Compile Include="HackerRank\GemStones\Solution.cs" />
     <Compile Include="HackerRank\HalloweenParty\Solution.cs" />
+    <Compile Include="HackerRank\ManasaAndStones\Solution.cs" />
     <Compile Include="HackerRank\MaximizingXOR\Solution.cs" />
     <Compile Include="HackerRank\ServiceLane\Solution.cs" />
     <Compile Include="HackerRank\TheLoveLetterMystery\Solution.cs" />
@@ -90,6 +91,7 @@
     <Content Include="HackerRank\GameOfThrones\README.txt" />
     <Content Include="HackerRank\GemStones\README.txt" />
     <Content Include="HackerRank\HalloweenParty\README.txt" />
+    <Content Include="HackerRank\ManasaAndStones\README.txt" />
     <Content Include="HackerRank\MaximizingXOR\README.txt" />
     <Content Include="HackerRank\ServiceLane\README.txt" />
     <Content Include="HackerRank\TheLoveLetterMystery\README.txt" />
