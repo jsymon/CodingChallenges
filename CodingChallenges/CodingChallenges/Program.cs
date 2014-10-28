@@ -12,27 +12,7 @@ namespace CodingChallenges
         {
 
 
-
-
-            int loops = 3;
-            int a = 10;
-            int b = 100;
-
-            for (int i = 0; i <= loops; i++)//i us total quantity of 'a' to take
-            {
-                var aMax = (loops - i) * a;
-                var bMax = i * b;
-
-                Console.WriteLine(aMax + bMax);
-
-            }
-
-
-
-
-
-
-
+            new CodingChallenges.HackerRank.SherlockAndSquares.Solution();
 
 
 
@@ -49,6 +29,8 @@ namespace CodingChallenges
             //TestUtopianTree();
             Console.Read();
         }
+
+   
 
         private static void TestChocolateFeast()
         {

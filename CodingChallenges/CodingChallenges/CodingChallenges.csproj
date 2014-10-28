@@ -60,7 +60,10 @@
     <Compile Include="HackerRank\HalloweenParty\Solution.cs" />
     <Compile Include="HackerRank\ManasaAndStones\Solution.cs" />
     <Compile Include="HackerRank\MaximizingXOR\Solution.cs" />
+    <Compile Include="HackerRank\ProjectEuler\005SmallestMultiple.cs" />
     <Compile Include="HackerRank\ServiceLane\Solution.cs" />
+    <Compile Include="HackerRank\SherlockAndGCD\Solution.cs" />
+    <Compile Include="HackerRank\SherlockAndSquares\Solution.cs" />
     <Compile Include="HackerRank\TheLoveLetterMystery\Solution.cs" />
     <Compile Include="HackerRank\UtopianTree\Solution.cs" />
     <Compile Include="Program.cs" />
@@ -93,7 +96,9 @@
     <Content Include="HackerRank\HalloweenParty\README.txt" />
     <Content Include="HackerRank\ManasaAndStones\README.txt" />
     <Content Include="HackerRank\MaximizingXOR\README.txt" />
+    <Content Include="HackerRank\ProjectEuler\README.txt" />
     <Content Include="HackerRank\ServiceLane\README.txt" />
+    <Content Include="HackerRank\SherlockAndGCD\README.txt" />
     <Content Include="HackerRank\TheLoveLetterMystery\README.txt" />
     <Content Include="HackerRank\UtopianTree\README.txt" />
     <Content Include="TalentBuddy\AverageGrade\README.txt" />
