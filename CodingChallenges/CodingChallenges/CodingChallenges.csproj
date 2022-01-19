@@ -52,11 +52,8 @@
     <Compile Include="Exercism.io\Etl\_debug.cs" />
     <Compile Include="Exercism.io\Leap\LeapTest.cs" />
     <Compile Include="Exercism.io\Leap\Year.cs" />
-    <Compile Include="HackerRank\ChocolateFeast\Solution.cs" />
     <Compile Include="HackerRank\CutTheSticks\Solution.cs" />
     <Compile Include="HackerRank\Functions.cs" />
-    <Compile Include="HackerRank\GameOfThrones\Solution.cs" />
-    <Compile Include="HackerRank\GemStones\Solution.cs" />
     <Compile Include="HackerRank\HalloweenParty\Solution.cs" />
     <Compile Include="HackerRank\ManasaAndStones\Solution.cs" />
     <Compile Include="HackerRank\MaximizingXOR\Solution.cs" />
